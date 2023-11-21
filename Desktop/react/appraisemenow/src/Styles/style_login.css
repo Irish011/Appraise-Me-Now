@@ -1,8 +1,6 @@
-/* Login.css */
 
-/* Blue-based theme */
 body {
-  background-color: #ecf0f5; /* Light blue background color */
+  background-color: #ecf0f5; 
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
@@ -16,14 +14,14 @@ body {
 }
 
 .login-box {
-  background-color: #ffffff; /* White background for the login box */
+  background-color: #ffffff; 
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 400px;
 }
 
 .login-title {
-  color: #34657f; /* Dark blue title color */
+  color: #34657f; 
   text-align: center;
 }
 
@@ -39,31 +37,31 @@ body {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid  #4f8eaa; /* Blue border for input fields */
-  background-color:  #fff; /* Blue background for input fields */
-  color: #fff; /* Text color for input fields */
+  border: 1px solid  hsl(198, 37%, 49%); 
+  background-color:  #fff; 
+  color: #fff; 
   
 }
 
 .checkbox {
   display: block;
   margin-bottom: 15px;
-  color: #9dc6d8; /* Light blue text color for checkbox label */
+  color: #9dc6d8; 
 }
 
 .forgot a {
-  color: #7ba4b8; /* Lighter blue text color for anchor */
+  color: #7ba4b8; 
   margin-bottom: 10px !important; 
 }
 
 input[type="submit"] {
-  background-color: #4f8eaa; /* Another shade of blue for the "Sign In" button */
+  background-color: #4f8eaa; 
   color: #fff;
   cursor: pointer;
-  border: none; /* Remove button border */
-  padding: 10px 20px; /* Adjust button padding */
-  font-size: 16px; /* Adjust button font size */
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
 }
 .spacing-div {
-  height: 10px; /* Adjust the height to control the spacing */
+  height: 10px; 
 }
