@@ -1,0 +1,51 @@
+/* Reset some default styles for the list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    height: 5rem;
+    background-color: rgb(57, 65, 109); /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+}
+
+/* Style the navigation links */
+.navbar ul {
+    height: 100%;
+    align-items: center;
+    display: flex; /* Display links horizontally */
+    justify-content: space-around; /* Evenly space out the links */
+    padding: 0;
+}
+.icons{
+    height: 100%;
+    align-items: center;
+    display: flex; /* Display links horizontally */
+    justify-content: flex-start; 
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add spacing around links */
+}
+
+/* Change link color when hovered over */
+.navbar a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+/* Optionally, you can style the active link (e.g., the current page) */
+.navbar a.active {
+    background-color: #4CAF50;
+}

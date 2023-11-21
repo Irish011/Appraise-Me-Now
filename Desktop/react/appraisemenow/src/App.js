@@ -4,7 +4,7 @@ import Login from './View/Login';
 function App() {
   return (
     <div className="App">
-      <Login/>
+      <Navbar/>
     </div>
   );
 }
