@@ -3,7 +3,7 @@ const express = require("express");
 const collection = require("./mongo");
 
 const cors = require("cors");
-const { compare } = require("bcrypt");
+// const { compare } = require("bcrypt");
 // const { default: App } = require("./src/App");
 
 const app = express();
