@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Dashboard from './View/Dashboard';
 import Login from './View/Login';
+import EmployeeList from './View/Employees_admin';
 
 // const jwt = require('jsonwebtoken')
 
@@ -17,6 +18,7 @@ root.render(
       <Route path="/" element={<Navigate to="/login" replace/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/dashboard" element={<Dashboard/>} />
+      <Route path="/Employees_admin" element={<EmployeeList />} />
     </Routes>
   </Router>
 );

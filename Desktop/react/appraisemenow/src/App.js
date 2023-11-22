@@ -1,19 +1,20 @@
 import './App.css';
-import Dashboard from './View/Dashboard_admin';
-import EmployeeList from './View/Employees_admin';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Login from './View/Login';
+// import Dashboard from './View/Dashboard_admin';
+// import EmployeeList from './View/Employees_admin';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <div className="App">
-        <Routes>
+        {/* <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Dashboard />} />
           <Route path="/Employees_admin" element={<EmployeeList />} /> 
-        </Routes>
+        </Routes> */}
       </div>
-    </Router>
+    // </Router>
   );
 }
 

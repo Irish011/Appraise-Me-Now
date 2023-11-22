@@ -1,4 +1,3 @@
-
 body {
   background-color: #ecf0f5; 
   font-family: 'Arial', sans-serif;
@@ -23,7 +22,6 @@ body {
 .login-title {
   color: #34657f; 
   text-align: center;
-  font-family: Copperplate;
 }
 
 .input-container {
@@ -41,21 +39,17 @@ body {
   margin-bottom: 15px;
   border: 1px solid  hsl(198, 37%, 49%); 
   background-color:  #fff; 
-  color: #fff; 
-  font-family: Copperplate;
 }
 
 .checkbox {
   display: block;
   margin-bottom: 15px;
   color: #9dc6d8; 
-  font-family: Copperplate;
 }
 
 .forgot a {
   color: #7ba4b8; 
   margin-bottom: 10px !important; 
-  font-family: Copperplate;
 }
 
 input[type="submit"] {
@@ -65,7 +59,6 @@ input[type="submit"] {
   border: none; 
   padding: 10px 20px; 
   font-size: 16px; 
-  font-family: Copperplate;
 }
 .spacing-div {
   height: 10px; 
