@@ -1,0 +1,41 @@
+/* Styles/style_dashboard_admin.css */
+
+/* Blue-based theme */
+body {
+    background-color: #ecf0f5; /* Light blue background color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    align-items: flex-start !important; 
+  }
+  
+  .vertical-navbar {
+    background-color: #34657f; /* Dark blue background for the navbar */
+    width: 200px;
+    height: 100vh;
+    padding-top: 20px;
+    box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vertical-navbar a {
+    display: block;
+    padding: 15px;
+    color: #fff; /* White text color for navbar items */
+    text-decoration: none;
+    border-bottom: 1px solid #4f8eaa; /* Border between navbar items */
+    transition: background-color 0.3s;
+  }
+  
+  .vertical-navbar a:hover {
+    background-color: #4f8eaa; /* Hover color for navbar items */
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,117 @@
+/* Styles/style_employee_admin.css */
+
+/* Blue-based theme */
+body {
+    background-color: #ecf0f5; /* Light blue background color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .employee-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the employee container */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #34657f; /* Dark blue title color */
+    text-align: center;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #4f8eaa; /* Border for table cells */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #4f8eaa; /* Blue color for table header */
+    color: #fff; /* Text color for table header */
+  }
+  
+  .add-button {
+    background-color: #4f8eaa; /* Blue color for the "Add New Employee" button */
+    color: #fff; /* Text color for the button */
+    cursor: pointer;
+    border: none; /* Remove button border */
+    padding: 10px; /* Adjust button padding */
+    font-size: 16px; /* Adjust button font size */
+    display: block;
+    margin: 20px auto;
+  }
+  .employee-table th,
+.employee-table td {
+  /* ... (Previous styles remain unchanged) */
+  text-align: center;
+}
+
+.employee-table td button {
+  background-color: #e74c3c; /* Red color for delete button */
+  color: #fff; /* Text color for delete button */
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.employee-table td button:hover {
+  background-color: #c0392b; /* Darker red color on hover */
+}
+/* Styles/style_employee_admin.css */
+
+.add-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-form h2 {
+    color: #34657f;
+    text-align: center;
+  }
+  
+  .add-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-form label {
+    margin-bottom: 10px;
+  }
+  
+  .add-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-form button {
+    background-color: #4f8eaa;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+  }
+  
+  
