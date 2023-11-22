@@ -1,5 +1,4 @@
 import './App.css';
-import Login from './View/Login';
 import Dashboard from './View/Dashboard_admin';
 import EmployeeList from './View/Employees_admin';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
