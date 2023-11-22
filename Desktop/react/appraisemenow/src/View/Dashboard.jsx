@@ -1,7 +1,7 @@
 import React from "react";
 import '../Styles/Dashboard.css';
 import Navbar from './Navbar';
-import Piechart from './Piechart';
+import PieChart from './PieChart';
 import Sidebar from './Sidebar';
 
 
@@ -11,7 +11,7 @@ function Dashboard(){
         <Navbar/>
         <div className="Dashboard">
             <Sidebar/>
-            <Piechart/>
+            <PieChart/>
         </div>
 
         </>

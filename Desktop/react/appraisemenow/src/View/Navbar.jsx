@@ -2,7 +2,7 @@ import React from "react";
 import {FiSettings} from "react-icons/fi";
 // import { FiIconName } from 'react-icons/fi';
 
-import '../Styles/NavBar.css';
+import '../Styles/Navbar.css';
 // import { icons } from "react-icons";
 import {CgProfile} from "react-icons/cg";
 
