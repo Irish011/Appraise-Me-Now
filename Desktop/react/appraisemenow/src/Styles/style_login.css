@@ -1,3 +1,4 @@
+
 body {
   background-color: #ecf0f5; 
   font-family: 'Arial', sans-serif;
@@ -39,6 +40,7 @@ body {
   margin-bottom: 15px;
   border: 1px solid  hsl(198, 37%, 49%); 
   background-color:  #fff; 
+  color: black;
 }
 
 .checkbox {

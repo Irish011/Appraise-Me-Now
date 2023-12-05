@@ -24,7 +24,7 @@ const Login = () => {
         if(res.data=="exist"){
           history("/dashboard",{state:{id:email}})
         }else if(res.data=="notexist"){
-          alert("User not exist");
+          alert("Incorrect password");
           console.log("No user");
         }
       })

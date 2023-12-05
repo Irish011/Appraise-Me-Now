@@ -14,25 +14,25 @@ body {
   margin-left: 15px;
 }
 form {
-  width: 50%;
+  /* width: 50%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid  hsl(198, 37%, 49%); 
   background-color:  #fff; 
   color: #fff; 
-  font-family: Copperplate;
+  font-family: Copperplate; */
 }
 
 label {
-  display: block;
-  margin-bottom: 10px;
+  /* display: block;
+  margin-bottom: 10px; */
   color: #34657f; /* Dark blue text color for labels */
 }
 
 input {
-  width: 100%;
+  /* width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 15px; */
   border: 1px solid #4f8eaa; /* Blue border for input fields */
   background-color: #4f8eaa; /* Blue background for input fields */
   color: #fff; /* Text color for input fields */

@@ -3,7 +3,7 @@
 import React from 'react';
 import Layout from './layout_admin';
 
-class Dashboard extends React.Component {
+class DashboardAdmin extends React.Component {
   render() {
     return (
       <Layout>
@@ -13,4 +13,4 @@ class Dashboard extends React.Component {
   }
 }
 
-export default Dashboard;
+export default DashboardAdmin;

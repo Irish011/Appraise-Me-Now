@@ -19,6 +19,26 @@ const newSchema = new mongoose.Schema({
     }
 })
 
+const TaskSchema = new mongoose.Schema({
+
+task_assigned:{
+    type: String,
+    required: true
+},
+task_completed:{
+    type: String,
+    required: true
+},
+task_pending: {
+    type: String,
+    required: true
+}
+})
+
 const collection = mongoose.model("collection", newSchema)
 
-module.exports=collection
+const tasks = mongoose.model("Tasks", TaskSchema)
+
+
+
+module.exports={collection, tasks}

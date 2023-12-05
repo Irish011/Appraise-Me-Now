@@ -6,8 +6,8 @@ function Sidebar() {
     <div className="sidebar">
       <ul>
         <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Messages</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">Notice Board</a></li>
       </ul>
     </div>
   );

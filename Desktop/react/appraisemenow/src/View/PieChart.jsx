@@ -3,8 +3,12 @@ import '../Styles/Piechart.css';
 
 import Chart from 'chart.js/auto';
 
+async function getData(){
+  
+}
 const PieChart = () => {
   const chartRef = useRef(null);
+
 
   useEffect(() => {
     // Destroy the existing chart before rendering a new one
