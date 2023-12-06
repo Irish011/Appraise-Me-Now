@@ -1,6 +1,7 @@
 .piechart{
-    padding-left: 15rem;
+    margin: 1rem auto;
+    /* padding-left: 15rem; */
     flex-direction: row;
-    height: 30rem;
-    width: 30rem;
+    height: 23rem;
+    width: 23rem;
 }

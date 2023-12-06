@@ -17,11 +17,11 @@ const PieChart = () => {
     chartRef.current = new Chart(ctx, {
       type: 'pie',
       data: {
-        labels: ['Task Assigned', 'Task Completed', 'Task Pending'],
+        labels: ['Task Completed', 'Task Pending'],
         datasets: [
           {
-            data: [30, 40, 20],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+            data: [40, 60],
+            backgroundColor: ['#36A2EB', '#FFCE56'],
           },
         ],
       },
@@ -30,7 +30,7 @@ const PieChart = () => {
 
   return (
     <div className='piechart'>
-      <h2>Pie Chart</h2>
+      {/* <h2>Pie Chart</h2> */}
       <canvas id="myPieChart" width="100" height="100"></canvas>
     </div>
   );
