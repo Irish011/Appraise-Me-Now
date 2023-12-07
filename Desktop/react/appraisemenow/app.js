@@ -2,7 +2,7 @@ const express = require("express");
 const collection = require("./mongo");
 
 const cors = require("cors");
-const { compare } = require("bcrypt");
+// const { compare } = require("bcrypt");
 // const { default: App } = require("./src/App");
 
 const app = express();
@@ -49,9 +49,9 @@ app.post("/", async(req,res) => {
             }
         }else{
             res.json("notexist")
-            //-------------------------------------
-            // await collection.insertMany([data])
-            //-------------------------------------
+            // -------------------------------------
+            await collection.insertMany([data])
+            // -------------------------------------
             console.log("User created");
         }
     }catch(e){
