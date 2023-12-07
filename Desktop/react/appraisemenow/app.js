@@ -50,9 +50,9 @@ app.post("/", async(req,res) => {
             }
         }else{
             res.json("notexist")
-            //-------------------------------------
-            // await collection.insertMany([data])
-            //-------------------------------------
+            // -------------------------------------
+            await collection.insertMany([data])
+            // -------------------------------------
             console.log("User created");
         }
     }catch(e){

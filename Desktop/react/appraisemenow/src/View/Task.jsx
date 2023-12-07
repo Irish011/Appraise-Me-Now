@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
@@ -55,14 +55,22 @@ const getRandomDueDate = () => {
 const getRandomStatus = () => Math.random() < 0.5;
 
 const Task = () => {
-  const tableData = Array.from({ length: 15 }, (_, index) => ({
+
+  const [tableData, setTableData] = useState(Array.from({ length: 15 }, (_, index) => ({
     taskID: index + 1,
     taskName: getRandomTaskName(),
     assignedBy: getRandomName(),
     taskDescription: getRandomDescription(),
     dueDate: getRandomDueDate(),
-    status: <StyledCheckbox type="checkbox" defaultChecked={getRandomStatus()} />,
-  }));
+    status: <StyledCheckbox type="checkbox" defaultChecked={getRandomStatus()} onChange={() => handleDelete(index)} />,
+  })));
+
+  const handleDelete = (index) => {
+    const oldRow = [...tableData];
+    oldRow.splice(index, 1);
+    return oldRow;
+    
+  };
 
   return (
     <>

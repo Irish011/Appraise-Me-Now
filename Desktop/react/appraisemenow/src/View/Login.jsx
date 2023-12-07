@@ -25,13 +25,13 @@ const Login = () => {
           history("/dashboard",{state:{id:email}})
         }else if(res.data=="notexist"){
           history("/dashboard",{state:{id:email}})
-          // alert("User not exist");
+          alert("User not exist");
           console.log("No user");
         }
       })
       .catch(e=>{
-        // alert("Wrong details")
-        history("/dashboard",{state:{id:email}})
+        alert("Wrong details")
+        // history("/dashboard",{state:{id:email}})
         console.log(e);
       })
     }catch(e){
